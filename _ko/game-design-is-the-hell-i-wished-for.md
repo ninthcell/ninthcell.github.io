@@ -79,4 +79,4 @@ date: 2026-04-01
 
 솔로 개발은 정말 고되다. 한 달 동안 9개의 버전을 만들고 테스트했다. 매 순간순간이 불 위를 맨발로 걷는 기분이었다. 하지만 이 무식한 개발 속도는 오직 혼자였기에 가능한 일이기도 했다. 무언가를 고쳐야 할 이유가 명확해지면 그저 문제를 적고, 해결책을 고민한 뒤, 나 자신 하나만 납득시키면 그만이었기 때문이다. 어쩌면 앞으로 더 많은 버전을 갈아엎어야 할지도 모른다. 하지만 뭐 어떤가. 이게 바로 내가 자초한 지옥인 것을.
 
-<p class="note">이후의 개발 업데이트가 궁금하시다면 <a href="https://x.com/ninthcellstudio">https://x.com/ninthcellstudio</a>를 팔로우해 주세요.</p>
+<p class="note">이후의 개발 업데이트가 궁금하시다면 <a href="https://x.com/ninthcellstudio">https://x.com/ninthcellstudio</a>에서 볼 수 있습니다.</p>
