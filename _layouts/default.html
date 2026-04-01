@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <style>
+    :root {
+      --bg: #111;
+      --fg: #e0e0e0;
+      --accent: #888;
+      --link: #aaa;
+      --max-w: 680px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      padding: 2rem 1.5rem;
+    }
+    .container { max-width: var(--max-w); margin: 0 auto; }
+    header { margin-bottom: 2rem; }
+    header nav { display: flex; gap: 1.5rem; align-items: baseline; }
+    header nav a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+    header nav a:hover { color: var(--fg); }
+    header .site-title { font-size: 1rem; font-weight: 600; color: var(--fg); text-decoration: none; }
+    a { color: var(--link); }
+    a:hover { color: var(--fg); }
+    h1 { font-size: 1.6rem; margin-bottom: 0.5rem; font-weight: 600; }
+    h2 { font-size: 1.2rem; margin-top: 2rem; margin-bottom: 0.5rem; font-weight: 600; }
+    p { margin-bottom: 1rem; }
+    img, video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 1rem 0;
+      display: block;
+    }
+    .post-date { color: var(--accent); font-size: 0.85rem; margin-bottom: 1.5rem; }
+    .post-list { list-style: none; }
+    .post-list li { margin-bottom: 1.5rem; }
+    .post-list .date { color: var(--accent); font-size: 0.85rem; }
+    strong { font-weight: 600; }
+    .caption { color: var(--accent); font-size: 0.85rem; margin-top: -0.5rem; margin-bottom: 1rem; }
+    .note { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #333; color: var(--accent); font-size: 0.85rem; }
+    footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid #333; color: var(--accent); font-size: 0.85rem; }
+    footer a { color: var(--accent); }
+    footer a:hover { color: var(--fg); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="/" class="site-title">{{ site.title }}</a>
+        <a href="/en/">EN</a>
+        <a href="/ko/">KO</a>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <a href="https://x.com/ninthcellstudio">@ninthcellstudio</a>
+    </footer>
+  </div>
+</body>
+</html>

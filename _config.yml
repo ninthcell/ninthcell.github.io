@@ -1,0 +1,30 @@
+title: ninthcell
+description: Game design journal
+url: "https://ninthcell.github.io"
+
+collections:
+  en:
+    output: true
+    permalink: /en/:title/
+  ko:
+    output: true
+    permalink: /ko/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "en"
+    values:
+      layout: "post"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "ko"
+    values:
+      layout: "post"
+      lang: "ko"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
