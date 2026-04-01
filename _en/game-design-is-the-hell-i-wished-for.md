@@ -77,6 +77,6 @@ But I don't think I would have arrived at v6 without the obsession. Precisely be
 
 If a colleague had told me to ditch Tetris after v1, I might have listened. But I wouldn't have known *why* I loved it enough to find a different way to keep it.
 
-Solo development is tough. I tested 9 versions in one month. Every step felt like walking through fire. But this pace was only possible because I was solo — when the reason for a change was clear, I could write down the problem, contemplate the fix, and move on without convincing anyone but myself. It may require more iterations though. Perhaps this is the hell I wished for.
+Solo development is tough. I tested 9 versions in one month. Every step felt like walking through fire. But this pace was only possible because I was solo — when the reason for a change was clear, I could write down the problem, contemplate the fix, and move on without convincing anyone but myself. It may have required more iterations because I am solo. Perhaps this is the hell I wished for.
 
 <p class="note">If you want to see what comes next, I'm at <a href="https://x.com/ninthcellstudio">@ninthcellstudio</a>.</p>
